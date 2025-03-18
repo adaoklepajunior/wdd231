@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Nanum Gothic", serif;
+    background-color: rgb(190, 244, 234);
+}
+
+header {
+    display: grid;
+    grid-gap: 1rem;
+    background-color: rgb(5, 104, 17);
+    padding: 30px;
+    text-align: center;
+}
+
+header,
+main {
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: "Nanum Gothic", serif;
+    color: rgb(245, 225, 195);
+}
+
+main {
+    max-width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-family: "Nanum Gothic", serif;
+    font-size: 2em;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+p {
+    padding-bottom: 10px;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 25px;
+    padding: 20px;
+    width: 100%;
+    justify-content: center;
+}
+
+#cards section {
+    max-width: 500px;
+    background-color: rgb(229, 244, 251);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px black;
+}
+
+footer {
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    color: rgb(247, 241, 231);
+    background-color: rgb(5, 104, 17);
+}
