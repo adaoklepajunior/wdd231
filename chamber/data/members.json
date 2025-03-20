@@ -1,0 +1,67 @@
+{
+    "members": [
+      {
+        "name": "Providence Meatpacker",
+        "address": "Industrial Ave, Miracema do Tocantins, BR",
+        "phone": "(555) 419-7080",
+        "website": "https://www.facebook.com/profile.php?id=100068225453938",
+        "image": "panoramic.webp",
+        "membershipLevel": 3,
+        "mapLink": "https://maps.app.goo.gl/ChjdSyfgdDgnTJfK6"
+      },
+      {
+        "name": "Mega Store",
+        "address": "341 January 1st St, Miracema do Tocantins, BR",
+        "phone": "(555) 113-6816",
+        "website": "https://www.facebook.com/profile.php?id=100070152763391",
+        "image": "panoramic.webp",
+        "membershipLevel": 2,
+        "mapLink": "https://maps.app.goo.gl/hpLBTPwcSTHGWu4v8"
+      },
+      {
+        "name": "Alex Presents",
+        "address": "602 Tocantins Ave, Miracema do Tocantins, BR",
+        "phone": "(555) 366-1333",
+        "website": "https://www.facebook.com/alexpresentes1000",
+        "image": "panoramic.webp",
+        "membershipLevel": 1,
+        "mapLink": "https://maps.app.goo.gl/n4ioWg2TBK1qoR6h8"
+      },
+      {
+        "name": "Xana Bakana",
+        "address": "204 January 1st St, Miracema do Tocantins, BR",
+        "phone": "(555) 921-1116",
+        "website": "https://www.instagram.com/xana_bakana/",
+        "image": "panoramic.webp",
+        "membershipLevel": 3,
+        "mapLink": "https://maps.app.goo.gl/3uE1fP5spMP3i5Qs7"
+      },
+      {
+        "name": "Farmer House",
+        "address": "48 January 1st St, Miracema do Tocantins, BR",
+        "phone": "(555) 366-1830",
+        "website": "https://www.instagram.com/casadofazendeiromira/",
+        "image": "panoramic.webp",
+        "membershipLevel": 2,
+        "mapLink": "https://maps.app.goo.gl/1Gpb7tBvk83gUUPh7"
+      },
+      {
+        "name": "Rodrigues Supermarket",
+        "address": "731 Zeca Pereira Ave, Miracema do Tocantins, BR",
+        "phone": "(555) 366-3375",
+        "website": "https://www.instagram.com/superrodrigues_to/",
+        "image": "panoramic.webp",
+        "membershipLevel": 1,
+        "mapLink": "https://maps.app.goo.gl/UxGdYQYxMtPnf8fj7"
+      },
+      {
+        "name": "Tropical Açai House",
+        "address": "370 C Ave, BR",
+        "phone": "(555) 940-4174",
+        "website": "https://www.instagram.com/acaiteriatropical_ofc/",
+        "image": "panoramic.webp",
+        "membershipLevel": 3,
+        "mapLink": "https://maps.app.goo.gl/ujkhjV3H8caktVfY7"
+      }
+    ]
+  }
