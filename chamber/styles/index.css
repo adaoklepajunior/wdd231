@@ -129,8 +129,7 @@ nav ul.active {
   }
   
   .spotlight-card img {
-    width: 150px;
-    height: 100px;
+    max-width: 100%;
     border-radius: 8px;
     margin: 0 auto 1rem;
     display: block;
