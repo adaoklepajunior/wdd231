@@ -66,6 +66,7 @@
     align-items: flex-start;
     max-width: 1200px;
     margin: 2rem auto;
+    border: 2px solid #706e6e;
   }
 
   .membership-container {
