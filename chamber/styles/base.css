@@ -1,126 +1,391 @@
-/* General and basic Styles */
+/* General Styles */
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #fffad5;
-    color: #333;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fffad5;
+  color: #333;
+}
+
+header {
+  background-color: #840606b7;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+}
+
+header .logo img {
+  max-width: 100px;
+  margin-right: 1rem;
+}
+
+header h1,
+header span {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+main h1 {
+  text-align: center;
+}
+main p {
+  text-align: center;
+}
+
+nav {
+  background-color: #097903;
+  padding: 0.5rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  gap: 45px;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  display: block;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li.active {
+  background-color: #585300;
+}
+
+footer {
+  background-color: #000000b7;
+  color: #fcf007;
+  text-align: right;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+/* Hamburger Menu Styles */
+#hamburgerBtn {
+  display: none;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+#hamburgerBtn.open {
+  transform: rotate(90deg);
+}
+
+/* Form styles */
+.join-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 600px;
+  margin: 2rem auto;
+  background-color: #d8ebd7;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.join-container label {
+  display: block;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.join-container input,
+.join-container select,
+.join-container textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.join-container textarea {
+  resize: vertical;
+}
+
+.join-container button {
+  background-color: #1523a3;
+  color: #f5eeee;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 1rem;
+  border-radius: 5px;
+}
+
+form {
+  background-color: #f4f4f4;
+  flex: 1;
+}
+
+.join-button {
+  display: flex;
+  justify-content: center;
+}
+
+form label {
+  margin: 0.5rem 0.5rem;
+}
+
+.join-container button:hover {
+  background-color: #8d07c2;
+}
+
+/* Membership Cards */
+.membership-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  flex: 1;
+}
+
+.membership-card {
+  background: #ffffff;
+  padding: 0.3rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  animation: subtlePulse 10s infinite;
+  margin-bottom: 10px;
+}
+
+.membership-card:hover {
+  transform: scale(1.05);
+}
+
+#membership-info::backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(2px);
+}
+
+@keyframes subtlePulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
   }
-  
-  header {
-    background-color: #840606b7;
-    padding: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  50% {
+    transform: scale(1.08);
+    opacity: 0.8;
+}
+}
+
+/* Medal Animations */
+.title-container span {
+  display: flex;
+  justify-content: center;
+}
+
+.medal {
+  font-size: 2rem;
+  opacity: 0;
+}
+
+.gold {
+  /* animation-delay: 0s; */
+  animation: fadeInOut 10s infinite;
+}
+
+.silver {
+  animation: fadeInOut 10.5s infinite;
+  /* animation-delay: 2s; */
+}
+
+.bronze {
+  animation: fadeInOut 11s infinite;
+  /* animation-delay: 4s; */
+}
+
+@keyframes fadeInOut {
+  0%, 100% {
+    opacity: 0;
+    transform: scale(0.8);
   }
-  
-  header .logo {
-    display: flex;
-    align-items: center;
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
   }
-  
-  header .logo img {
-    max-width: 100px;
-    margin-right: 1rem;
-  }
-  
-  header h1,
-  header span {
-    margin: 0;
-    font-size: 1.5rem;
-    color: #ffffff;
+}
+
+/* Discover */
+.places-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.place-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  overflow: hidden;
+  display: grid;
+  grid-template-areas:
+      "image"
+      "content";
+}
+
+.card-image {
+  grid-area: image;
+}
+
+.card-image img {
+  width: 90%;
+  height: auto;
+  display: block;
+}
+
+.card-content {
+  grid-area: content;
+  padding: 1rem;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.learn-more {
+  background-color: #ffd700;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  justify-self: start;
+}
+
+/* Dialog styles */
+.card-dialog {
+  border: none;
+  border-radius: 8px;
+  padding: 0;
+  width: 90%;
+  max-width: 800px;
+  background: transparent;
+}
+
+.card-dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.dialog-content {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  position: relative;
+}
+
+.close-dialog {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  line-height: 1;
+}
+
+.dialog-content img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+/* Visit Message Styles*/
+.visit-message {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #ffd700;
+  padding: 1rem;
+  box-shadow: 0 -2px 10px rgba(0,0,0,0.2);
+  z-index: 1001;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.visit-message.hidden {
+  display: none;
+}
+
+.visit-message p {
+  margin: 0;
+  flex: 1;
+}
+
+.close-message {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+  color: #333;
+}
+
+/* Responsive Navigation */
+@media (max-width: 768px) {
+  #hamburgerBtn {
+    display: block;
+    /* float: right; */
   }
 
-  main h1 {
-    text-align: center;
-  }
-  main p {
-    text-align: center;
-  }
-  
-  nav {
-    background-color: #097903;
-    padding: 0.5rem;
-  }
-  
   nav ul {
-    list-style: none;
-    padding: 0  ;
-    margin: 0;
-    display: flex;
-    justify-content: flex-end;  
+    flex-direction: column;
+    background-color: #333;
+    /* position: absolute; */
+    width: 100%;
+    left: 0;
+    top: 140px;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    display: none;
     transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
   }
   
-  nav ul li {
-    margin: 0 1rem;
+  nav ul.active {
+    max-height: 500px;
+    opacity: 1;
+    display: flex;
   }
-  
-  nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 0.5rem 1rem;
-    display: block;
-    transition: background-color 0.3s ease;
-  }
-  
-  nav ul li a:hover,
-  nav ul li.active {
-    background-color: #585300;
-  }
-  
+
   footer {
-    background-color: #000000b7;
-    color: #fcf007;
-    text-align: right;
-    padding: 1rem;
-    margin-top: 2rem;
+    text-align: center;
   }
-  
-  /* Hamburger Menu Styles */
-  #hamburgerBtn {
-    display: none;
-    background: none;
-    border: none;
-    color: #fff;
-    font-size: 1.5rem;
-    cursor: pointer;
-    transition: transform 0.3s ease;
-  }
-  
-  #hamburgerBtn.open {
-    transform: rotate(90deg);
-  }
-  
-  /* Responsive Navigation */
-  @media (max-width: 768px) {
-    #hamburgerBtn {
-      display: block;
-    }
-  
-    nav ul {
-      flex-direction: column;
-      background-color: #333;
-      /*position: absolute;*/
-      width: 100%;
-      left: 0;
-      top: 140px;
-      max-height: 0;
-      overflow: hidden;
-      opacity: 0;
-      display: none;
-      transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
-    }
-    
-    nav ul.active {
-      max-height: 500px;
-      opacity: 1;
-      display: flex;
-    }
-  
-    footer {
-      text-align: center;
-    }
-  }
+}
