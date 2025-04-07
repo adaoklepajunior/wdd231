@@ -1,0 +1,52 @@
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+}
+
+.purpose-section {
+    grid-column: 1 / -1;
+}
+
+.scenarios-section {
+    grid-column: 1 / 2;
+}
+
+.color-palette {
+    grid-column: 1 / -1;
+    grid-row: 4 / 4;
+}
+
+.typography {
+    grid-column: 2 / 2;
+}
+
+header {
+    padding: 2rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.2rem;
+}
+
+.color-swatches {
+    flex-direction: row;
+}
+
+.color-swatch {
+    width: 220px;
+    height: 80px;
+    padding-top: 2.5rem;
+}
+
+.wireframe {
+    gap: 2rem;
+    margin: 1.5rem;
+}
