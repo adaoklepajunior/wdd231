@@ -1,0 +1,95 @@
+{
+    "places": [
+      {
+        "id": 1,
+        "title": "Praia da Graciosa",
+        "alt": "Graciosa Beach",
+        "address": "Av. Theotônio Segurado, s/n - Plano Diretor Sul, Palmas - TO",
+        "cost": "Free (small fee for chairs/umbrellas)",
+        "short_description": "An artificial beach on Lago de Palmas, perfect for swimming, stand-up paddleboarding, and relaxing. It has food kiosks and live music on weekends.",
+        "image_link": "./images/graciosa.webp"
+      },
+      {
+        "id": 2,
+        "alt": "Cesamar Park",
+        "title": "Parque Cesamar",
+        "address": "103 Sul, Av. NS 01, s/n - Plano Diretor Sul, Palmas - TO",
+        "cost": "Free",
+        "short_description": "A large urban park with walking trails, a lake, sports courts, and playgrounds. Great for jogging, picnics, and birdwatching.",
+        "image_link": "./images/cesamar.webp"
+      },
+      {
+        "id": 3,
+        "title": "Serra do Lajeado",
+        "alt": "Lajeado Mountain Range",
+        "address": "TO-020 Highway, near Palmas (30 min drive)",
+        "cost": "Free (guided tours ~R$50-100)",
+        "short_description": "A mountain range with hiking trails leading to breathtaking views of Palmas and the Tocantins River. Best visited early morning or sunset.",
+        "image_link": "./images/serra.webp"
+      },
+      {
+        "id": 4,
+        "title": "Boat Tour on Lago de Palmas",
+        "alt": "Palmas Lake Boat Tour",
+        "address": "Marina do Café (Av. Theotônio Segurado)",
+        "cost": "~R$50-150 per person (varies by tour)",
+        "short_description": "Sunset boat rides, fishing trips, and kayak rentals available on the lake. Some tours include drinks and snacks.",
+        "image_link": "./images/boat.webp"
+      },
+      {
+        "id": 5,
+        "title": "Espaço Cultural José Gomes Sobrinho",
+        "alt": "Palmas Cultural Space",
+        "address": "106 Sul, Av. LO 06, s/n - Plano Diretor Sul, Palmas - TO",
+        "cost": "Free (some events may charge)",
+        "short_description": "A cultural hub with art exhibitions, theater, and live music. Check their schedule for events.",
+        "image_link": "./images/espaço.webp"
+      },
+      {
+        "id": 6,
+        "title": "Feira da 304 Sul",
+        "alt": "304 South Covered Fair",
+        "address": "Av. LO 06, 304 Sul - Plano Diretor Sul, Palmas - TO",
+        "cost": "R$10-30 (street food & snacks)",
+        "short_description": "A vibrant market with local food stalls selling pamonha, pequi rice, pastel, and crafts. Open on weekends.",
+        "image_link": "./images/feira.webp"
+      },
+      {
+        "id": 7,
+        "title": "Palmas Cathedral",
+        "alt": "Cathedral of Palmas",
+        "address": "Av. Teotônio Segurado, s/n - Plano Diretor Sul, Palmas - TO",
+        "cost": "Free",
+        "short_description": "A modern church with stunning stained glass and a peaceful atmosphere.",
+        "image_link": "./images/catedral.webp"
+      },
+      {
+        "id": 8,
+        "title": "Mirante da Serra do Carmo",
+        "alt": "Viewpoint of the Serra do Carmo",
+        "address": "Serra do Carmo, near Taquaruçu (25 km from Palmas)",
+        "cost": "Free",
+        "short_description": "A panoramic viewpoint offering the best sunset views over Palmas. Great for photos!",
+        "image_link": "./images/mirante.webp"
+      },
+      {
+        "id": 9,
+        "title": "Nightlife at Avenida JK",
+        "alt": "Nightlife at Avenida JK",
+        "address": "Av. JK, Plano Diretor Sul, Palmas - TO",
+        "cost": "R$20-80 (drinks/cover charge)",
+        "short_description": "The main nightlife strip with bars, clubs, and live music. Try Boteco do Jaú or Bar do Zé.",
+        "image_link": "./images/night.webp"
+      },
+      {
+        "id": 10,
+        "title": "Taquaruçu",
+        "alt": "Taquaruçu Waterfall",
+        "address": "30 km from Palmas (TO-030 Highway)",
+        "cost": "R$10-30 (entrance to waterfalls)",
+        "short_description": "A charming eco-village with waterfalls (like Cachoeira da Roncadeira), hiking, and rustic restaurants.",
+        "image_link": "./images/taquaruçu.webp"
+      }
+    ]  
+    
+}

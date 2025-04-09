@@ -248,7 +248,7 @@ form label {
 }
 
 .place-card {
-  background: white;
+  background: #d8ebd7;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   overflow: hidden;
@@ -276,13 +276,14 @@ form label {
 }
 
 .learn-more {
-  background-color: #ffd700;
+  background-color: #123db4;
   border: none;
   padding: 0.5rem 1rem;
   border-radius: 4px;
   cursor: pointer;
   font-weight: bold;
   justify-self: start;
+  color: white;
 }
 
 /* Dialog styles */
@@ -296,11 +297,11 @@ form label {
 }
 
 .card-dialog::backdrop {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .dialog-content {
-  background: white;
+  background: rgb(219, 241, 200);
   padding: 2rem;
   border-radius: 8px;
   position: relative;
@@ -330,7 +331,7 @@ form label {
   bottom: 0;
   left: 0;
   right: 0;
-  background: #ffd700;
+  background: #48ff00;
   padding: 1rem;
   box-shadow: 0 -2px 10px rgba(0,0,0,0.2);
   z-index: 1001;
