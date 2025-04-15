@@ -1,0 +1,191 @@
+@media (min-width: 768px) {
+
+    .container,
+    .filter-container {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        max-width: 1600px;
+        margin: 0 auto;
+        padding: 2rem;
+        gap: 2rem;
+    }
+    
+    .purpose-section {
+        grid-column: 1 / -1;
+    }
+    
+    .scenarios-section {
+        grid-column: 1 / 2;
+    }
+    
+    .color-palette {
+        grid-column: 1 / -1;
+        grid-row: 4 / 4;
+    }
+    
+    .typography {
+        grid-column: 2 / 2;
+    }
+    
+    header {
+        padding: 0.5rem 2rem;
+    }
+    
+    .header-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .main-nav {
+        width: auto;
+    }
+    
+    .hamburger {
+        display: none;
+    }
+    
+    .nav-links {
+        display: flex;
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+    
+    .nav-links a:hover, .nav-links a.active {
+        text-decoration: underline;
+    }
+    
+    h1 {
+        font-size: 3rem;
+    }
+    
+    h2 {
+        font-size: 2.2rem;
+    }
+    
+    .color-swatches {
+        flex-direction: row;
+    }
+    
+    .color-swatch {
+        width: 220px;
+        height: 80px;
+        padding-top: 2.5rem;
+    }
+    
+    .wireframe {
+        gap: 2rem;
+        margin: 1.5rem;
+    }
+    
+    .records-container {
+        display: grid;
+    }
+    
+    .large-hero-img {
+        display: inline;
+        opacity: 80%;
+    }
+    
+    .records-grid {
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        margin: 1rem 1rem;
+        gap: 2rem;
+    }
+    
+    .filters {
+        flex-direction: row;
+    }
+    
+    .filters select {
+        padding: 0.8rem 1rem;
+        font-size: 1rem;
+    }
+    
+    .modal-content {
+        padding: 2.5rem;
+    }
+    
+    .retailers-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+    
+    .retailer-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+        align-items: flex-start;
+    }
+    
+    .add-record-form {
+        position: sticky;
+        top: 1rem;
+    }
+    
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        padding: 0.8rem 1rem;
+    }
+    
+    .submit-btn {
+        width: auto;
+        padding: 0.8rem 2rem;
+    }
+    
+    .retailer-info {
+        margin-top: 9%;
+    }
+    
+    .footer-content {
+        display: grid;
+        grid-template-areas: 
+          "brand connect";
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 2rem;
+      }
+    
+      .footer-section.brand {
+        grid-area: brand;
+        text-align: left;
+      }
+    
+      .footer-section.connect {
+        grid-area: connect;
+        text-align: right;
+      }
+    
+      .footer-section {
+        display: flex;
+        flex-direction: column;
+      }
+    
+      /* Social icons adjustment */
+      .social-icons {
+        justify-content: flex-end;
+        margin-top: 0.5rem;
+      }
+    
+      .social-icons a {
+        background-color: rgba(255, 255, 255, 0.2);
+        border-radius: 50%;
+        padding: 8px;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+      }
+    
+      .social-icons a:hover {
+        background-color: rgba(255, 255, 255, 0.4);
+      }
+    
+      /* Copyright section */
+      footer > p {
+        margin-top: 2rem;
+        padding-top: 1rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+      }
+    
+    }

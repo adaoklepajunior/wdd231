@@ -1,0 +1,225 @@
+[
+  {
+    "id": 1,
+    "name": "Abbey Road",
+    "price": 250.00,
+    "store": "X Guy",
+    "category": "Rock",
+    "image": "abbey.webp",
+    "description": "This is the Beatles' final studio album, known for its innovative production and the iconic cover with the band crossing a zebra crossing.",
+    "featured": true,
+    "lastUpdated": "2023-05-15"
+  },
+  {
+    "id": 2,
+    "name": "Let It Bleed",
+    "price": 150.00,
+    "store": "Person B",
+    "category": "Rock",
+    "image": "let.webp",
+    "description": "This album features classic tracks like 'Gimme Shelter' and 'You Can't Always Get What You Want,' representing the peak of the Rolling Stones' psychedelic era.",
+    "featured": true,
+    "lastUpdated": "2023-06-20"
+  },
+  {
+    "id": 3,
+    "name": "Led Zeppelin - IV",
+    "price": 300.00,
+    "store": "Person F",
+    "category": "Psychedelic Rock",
+    "image": "led.webp",
+    "description": "Considered one of the greatest rock albums of all time, featuring tracks like 'Stairway to Heaven.",
+    "featured": false,
+    "lastUpdated": "2023-04-10"
+  },
+  {
+    "id": 4,
+    "name": "The Dark Side of the Moon",
+    "price": 350.00,
+    "store": "X Guy",
+    "category": "Psychedelic Rock",
+    "image": "dark.webp",
+    "description": "A landmark in progressive rock, with experimental sounds, and one of the best-selling albums of all time.",
+    "featured": true,
+    "lastUpdated": "2023-06-15"
+  },
+  {
+    "id": 5,
+    "name": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars",
+    "price": 220.00,
+    "store": "Person A",
+    "category": "Alternative",
+    "image": "mars.webp",
+    "description": "This conceptual album marked the beginning of the Ziggy Stardust era, blending glam rock with futuristic influences.",
+    "featured": true,
+    "lastUpdated": "2023-05-30"
+  },
+  {
+    "id": 6,
+    "name": "A Night at the Opera",
+    "price": 280.00,
+    "store": "Person B",
+    "category": "Rock",
+    "image": "opera.webp",
+    "description": "Containing the epic 'Bohemian Rhapsody,' this album represents the fusion of various musical styles, from rock to opera.",
+    "featured": false,
+    "lastUpdated": "2023-06-18"
+  },
+  {
+    "id": 7,
+    "name": "Rumours",
+    "price": 200.00,
+    "store": "Person F",
+    "category": "Pop Rock",
+    "image": "rumours.webp",
+    "description": "This pop rock album became one of the best-selling albums of all time, with hits like 'Go Your Own Way' and 'Dreams.",
+    "featured": false,
+    "lastUpdated": "2023-03-22"
+  },
+  {
+    "id": 8,
+    "name": "London Calling",
+    "price": 250.00,
+    "store": "Person A",
+    "category": "Punk Rock",
+    "image": "clash.webp",
+    "description": "A blend of punk rock with reggae, ska, and rockabilly, this album is one of the greatest punk records of all time.",
+    "featured": true,
+    "lastUpdated": "2023-06-10"
+  },
+  {
+    "id": 9,
+    "name": "Thriller",
+    "price": 500.00,
+    "store": "X Guy",
+    "category": "Pop",
+    "image": "thriller.webp",
+    "description": "One of the best-selling albums of all time, featuring hits like 'Billie Jean' and 'Beat It.",
+    "featured": false,
+    "lastUpdated": "2023-04-05"
+  },
+  {
+    "id": 10,
+    "name": "Purple Rain",
+    "price": 350.00,
+    "store": "X Guy",
+    "category": "Rock",
+    "image": "purple.webp",
+    "description": "The soundtrack to the movie of the same name, containing tracks that defined Prince's career, like 'When Doves Cry' and 'Let's Go Crazy.",
+    "featured": false,
+    "lastUpdated": "2023-06-17"
+  },
+  {
+    "id": 11,
+    "name": "The Joshua Tree",
+    "price": 300.00,
+    "store": "Person B",
+    "category": "Alternative",
+    "image": "u2.webp",
+    "description": "One of the greatest rock albums of the 80s, with tracks like 'With or Without You' and 'I Still Haven't Found What I'm Looking For.",
+    "featured": true,
+    "lastUpdated": "2023-05-25"
+  },
+  {
+    "id": 12,
+    "name": "Born in the U.S.A.",
+    "price": 250.00,
+    "store": "Person A",
+    "category": "Soul",
+    "image": "born.webp",
+    "description": "Considered Springsteen's greatest success, this album mixes rock with political and social themes.",
+    "featured": false,
+    "lastUpdated": "2023-03-15"
+  },
+  {
+    "id": 13,
+    "name": "Back in Black",
+    "price": 280.00,
+    "store": "Person F",
+    "category": "Rock",
+    "image": "black.webp",
+    "description": "One of the greatest hard rock albums of all time, featuring the iconic riff of 'Back in Black.",
+    "featured": false,
+    "lastUpdated": "2023-04-18"
+  },
+  {
+    "id": 14,
+    "name": "Whitney",
+    "price": 220.00,
+    "store": "Person B",
+    "category": "Pop",
+    "image": "whitney.webp",
+    "description": "Includes hits like 'I Wanna Dance with Somebody' and 'Didn't We Almost Have It All,' solidifying Houston's pop supremacy.",
+    "featured": true,
+    "lastUpdated": "2023-06-19"
+  },
+  {
+    "id": 15,
+    "name": "Like a Virgin",
+    "price": 220.00,
+    "store": "Person A",
+    "category": "Pop",
+    "image": "virgin.webp",
+    "description": "This album cemented Madonna as the 'Queen of Pop,' with hits like 'Material Girl' and 'Like a Virgin.",
+    "featured": true,
+    "lastUpdated": "2023-06-01"
+  },
+  {
+    "id": 16,
+    "name": "Synchronicity",
+    "price": 230.00,
+    "store": "Person F",
+    "category": "Rock",
+    "image": "police.webp",
+    "description": "One of the band's greatest successes, featuring tracks like 'Every Breath You Take' and 'King of Pain.",
+    "featured": true,
+    "lastUpdated": "2023-06-19"
+  },
+  {
+    "id": 17,
+    "name": "Private Dancer",
+    "price": 250.00,
+    "store": "Person B",
+    "category": "Soul",
+    "image": "dancer.webp",
+    "description": "One of Tina Turner's most iconic albums, with hits like 'What's Love Got to Do with It' and 'Private Dancer.",
+    "featured": true,
+    "lastUpdated": "2023-06-19"
+  },
+  {
+    "id": 18,
+    "name": "She's So Unusual",
+    "price": 180.00,
+    "store": "X Guy",
+    "category": "Pop",
+    "image": "lauper.webp",
+    "description": "This album marked the beginning of Cyndi Lauper's solo career, with hits like 'Girls Just Want to Have Fun' and 'Time After Time.",
+    "featured": true,
+    "lastUpdated": "2023-06-19"
+  },
+  {
+    "id": 19,
+    "name": "Legend",
+    "price": 220.00,
+    "store": "X Guy",
+    "category": "Reggae",
+    "image": "legend.webp",
+    "description": "The definitive compilation of Bob Marley's greatest hits, featuring songs like 'No Woman, No Cry' and 'Buffalo Soldier.",
+    "featured": true,
+    "lastUpdated": "2023-06-19"
+  },
+  {
+    "id": 20,
+    "name": "Bridge Over Troubled Water",
+    "price": 180.00,
+    "store": "Person A",
+    "category": "Pop",
+    "image": "simon.webp",
+    "description": "This album is one of the duo's masterpieces, with classic tracks like 'Bridge Over Troubled Water.",
+    "featured": true,
+    "lastUpdated": "2023-06-19"
+  }
+]
+
+
+  

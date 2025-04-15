@@ -1,0 +1,38 @@
+{
+    "albums": [
+
+    {
+      "id": 1,
+      "name": "Abbey Road",
+      "release_year": 1969,
+      "artists": "The Beatles",
+      "summary": "This is the Beatles' final studio album, known for its innovative production and the iconic cover with the band crossing a zebra crossing.",
+      "average_price": 250,
+      "year": 1969,
+      "image_link": "./images/abbey.webp"
+    },
+    {
+      "id": 2,
+      "name": "Let It Bleed",
+      "release_year": 1969,
+      "artists": "The Rolling Stones",
+      "summary": "This album features classic tracks like 'Gimme Shelter' and 'You Can't Always Get What You Want,' representing the peak of the Rolling Stones' psychedelic era.",
+      "average_price": 150,
+      "year": 1969,
+      "image_link": "./images/graciosa.webp"
+    },
+    {
+      "id": 3,
+      "name": "Led Zeppelin - IV",
+      "release_year": 1971,
+      "artists": "Led Zeppelin",
+      "summary": "Considered one of the greatest rock albums of all time, featuring tracks like 'Stairway to Heaven.'",
+      "average_price": 300,
+      "year": 1971,
+      "image_link": "./images/graciosa.webp"
+    }
+
+]
+
+}
+  
